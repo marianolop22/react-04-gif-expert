@@ -9,7 +9,6 @@ export const useFetchGifs = ( category ) => {
     })
 
     useEffect( ()=> {
-
         getGifs( category )
             .then( images => {
                 setState ({
@@ -20,8 +19,6 @@ export const useFetchGifs = ( category ) => {
 
     }, [category]); //al estar vacío, no se vuelve a llamar la funcion, al poner algo, esto se ejecuta cada vez que se modifica
 
-
-
-    return state;
+    return state; //{ data: blablab, loading: true/false}
 
 };

@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente GifGrid debe de mostrar items cuando se cargan imagenes useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+    style={
+      Object {
+        "margin": "10px",
+      }
+    }
+  >
+    One Punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="un titulo"
+      url="https://localhost/cualquiercosaaa/.jpg"
+    />
+    <GifGridItem
+      id="ABD"
+      key="ABD"
+      title="un titulo"
+      url="https://localhost/cualquiercosaaa/.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas del componente GifGrid debe renderizar el GifGrid 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+    style={
+      Object {
+        "margin": "10px",
+      }
+    }
+  >
+    One Punch
+  </h3>
+  <p>
+    Loading....
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
